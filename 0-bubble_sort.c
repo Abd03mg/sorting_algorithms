@@ -23,11 +23,11 @@ void bubble_sort(int *array, size_t size)
 				array[j + 1] = tmp;
 				isswapped = 1;
 			}
-		}
-		if (isswapped)
-		{
-			print_array(array, size);
-			isswapped = 0;
+			if (isswapped)
+			{
+				print_array(array, size);
+				isswapped = 0;
+			}
 		}
 	}
 }
