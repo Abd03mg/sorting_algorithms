@@ -1,18 +1,11 @@
 #include "sort.h"
 
 /**
- * insertion_sort_list - function that sorts a doubly linked list of int in asce.
+ * insertion_sort_list - function that sorts a doubly linked list of int
+ * in asce.
  *
  * @list: double pointer to linked list.
  */
-listint_t *swap(listint_t *a, listint_t *b)
-{
-	listint_t *tmp;
-	tmp = a;
-	a = b;
-	b = tmp;
-	return (a);
-}
 
 void insertion_sort_list(listint_t **list)
 {
